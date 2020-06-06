@@ -437,34 +437,6 @@ input[type="checkbox"] {
       color: #fff;
       line-height: 1.75; }
 
-.modal {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); }
-  .modal__inner {
-    display: flex;
-    justify-content: center;
-    padding: 20px; }
-  .modal__window {
-    padding: 52px 80px 62px;
-    background: url(../img/light.png);
-    width: 100%;
-    max-width: 460px;
-    position: relative;
-    margin-top: 5%; }
-  .modal__close {
-    position: absolute;
-    right: -23px;
-    top: -23px;
-    width: 21px;
-    height: 21px;
-    cursor: pointer;
-    background: url("../img/close.svg") no-repeat;
-    background-size: 100% 100%; }
-
 h4 {
   margin: 0 0 25px; }
 
@@ -592,7 +564,7 @@ input {
     transition: all 0.8s ease 0s;
     left: 0px; }
   .login-button {
-    background: url("../../img/login.png") no-repeat 0 40%;
+    background: url("../img/login.png") no-repeat 0 40%;
     padding-top: 14px; }
   .header__burger {
     display: block;

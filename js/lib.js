@@ -7,14 +7,6 @@
 });
 
 
- $('.header').on('click','.login-button',function(){
- 	$('#login-modal').fadeIn();
- });
-
- $('.modal__window').on('click','.modal__close',function(){
- 	$('#login-modal').fadeOut();
- });
-
    var mySwiper = new Swiper ('.swiper-container', {
   loop: true,
 
