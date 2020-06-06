@@ -416,7 +416,7 @@ input[type="checkbox"] {
 
 .login-button {
   text-transform: uppercase;
-  background: url("../../img/login.png") no-repeat 0 50%;
+  background: url("../img/login.png") no-repeat 0 50%;
   display: block;
   color: #fff;
   padding: 28px 0 24px 32px;
@@ -495,7 +495,7 @@ input {
   .news .container {
     display: flex;
     flex-wrap: wrap;
-    background: url("../../img/light.png") repeat; }
+    background: url("../img/light.png") repeat; }
   .news__item {
     width: calc(50% - 10px);
     padding: 50px 80px 54px;
