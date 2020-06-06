@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Barbershop</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/lib.css">
 </head>
 <body>
@@ -60,7 +61,79 @@
                 </div>
             </div>
         </div>
+        <section class="news">
+            <div class="container">
+                <div class="news__item">
+                    <div class="news__text">
+                        <h4 class="title30">НОВОСТИ</h4>
+                        <div class="content">
+                            <div class="content__item">
+                            <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                            <span class="september">25 сентября</span>
+                           </div>
+                           <div class="contant__item">
+                            <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                            <span class="september">19 сентября</span>
+                            </div>
+                        </div> 
+                    </div>
+                  <div class="content__all">
+                   <a href="#" class="button">Все новости</a>
+               </div>
+                 <span class="news__shedow2"></span> 
+                </div>
+                <span class="news__shedow"></span>  
+                <div class="news__item">
+                    <div class="news__gallery">
+                    <h4 class="title30">ФОТОГАЛЕРЕЯ</h4>
+                    <div class="gallery">
+                        <!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <div class="swiper-slide border"><img src="img/01.jpg" alt=""></div>
+        <div class="swiper-slide border"><img src="img/02.jpg" alt=""></div>
+        <div class="swiper-slide border"><img src="img/03.jpg" alt=""></div>
     </div>
+
+    <div class="gallery__buttons">
+    <div class="swiper-button-prev button">Назад</div>
+    <div class="swiper-button-next button">Вперед</div>
+    </div>
+</div>  
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="modal" id="login-modal">
+            <div class="modal__inner">
+                <div class="modal__window">
+                    <span class="modal__close"></span>
+                    <h4 class="title30">Личный кабинет</h4>
+                    <p>
+                        Введите пожалуйста свой логин и пароль
+                    </p>
+                    <form action="index.html">
+                        <input type="text" name="login" class="login_input" placeholder="Логин">
+                        <input type="password" name="password" class="login_password" placeholder="Пароль">
+                    
+                    <div class="form-middle">
+                        <div class="form-save">
+                            <input type="checkbox" name="save" id="save">
+                            <label for="save">Запомни меня</label>
+                        </div>
+                        <a href="#" class="forgot-password">
+                        Я забыл пароль
+                        </a>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <script src="js/lib.js"></script>
 </body>
 </html>
