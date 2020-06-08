@@ -594,7 +594,7 @@ input[type="tellphone"] {
     background: url("../img/light.png") repeat; }
   .info__item {
     width: calc(50% - 10px);
-    padding: 50px 80px 54px; }
+    padding: 50px 69px 54px; }
   .info__text {
     line-height: 2; }
     .info__text .address {
