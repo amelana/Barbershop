@@ -594,7 +594,8 @@ input[type="tellphone"] {
     background: url("../img/light.png") repeat; }
   .info__item {
     width: calc(50% - 10px);
-    padding: 50px 69px 54px; }
+    padding: 50px 69px 54px; 
+    margin: 0 auto;}
   .info__text {
     line-height: 2; }
     .info__text .address {
@@ -633,7 +634,7 @@ input[type="tellphone"] {
         color: black; }
   .info .submit {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 35px;
     font-style: bold; }
     .info .submit .button {
       display: block;
@@ -837,6 +838,8 @@ input[type="tellphone"] {
     margin-bottom: 40px; }
     .info__item {
       padding: 30px 40px 34px; }
+      .info__text h4{
+        font-size: 27px;}
       .info__item .address {
         margin-bottom: 15px; }
   .footer .footer__row {
