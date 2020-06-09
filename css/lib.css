@@ -534,8 +534,7 @@ input[type="tellphone"] {
     margin: 0 auto; }
     .news__item h4 {
       margin-bottom: 39px; }
-  .news__text {
-    height: calc(100% - 54px); }
+
   .news__shedow2 {
     display: none; }
   .news__shedow {
@@ -583,7 +582,8 @@ input[type="tellphone"] {
     color: #979594; }
   .content__all {
     text-align: left; }
-
+  .content__all a{
+    margin-top: 25px;}
 .info {
   margin-top: 33px;
   margin-bottom: 85px;
@@ -671,8 +671,10 @@ input[type="tellphone"] {
           margin: 0 5px; }
     .footer .footer__row .footer-autor {
       text-align: center; }
+      .footer .footer__row .footer-autor ul{
+        margin-top: 3px;}
       .footer .footer__row .footer-autor .link {
-        margin-top: 8px; }
+        margin-top: 6px; }
 
 @media (max-width: 950px) {
   .content .september {
