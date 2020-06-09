@@ -367,7 +367,8 @@ body {
   height: auto;
   display: inline-block;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border:0; }
 
 .border {
   padding: 7px;
@@ -582,8 +583,6 @@ input[type="tellphone"] {
     color: #979594; }
   .content__all {
     text-align: left; }
-  .content__all a{
-    margin-top: 25px;}
 .info {
   margin-top: 33px;
   margin-bottom: 85px;
