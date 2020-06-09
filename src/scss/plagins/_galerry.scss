@@ -1,0 +1,29 @@
+.gallery{
+
+
+	
+.swiper-button-prev, 
+.swiper-button-next {
+	position: static;
+}
+
+.swiper-button-prev:after{
+	content:'';
+	display: block;
+}
+
+.swiper-button-next:after{
+	content:'';
+	display: block;
+}
+
+&__buttons{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding-top: 35px;
+
+}
+
+
+}
