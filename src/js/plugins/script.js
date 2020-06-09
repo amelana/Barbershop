@@ -5,7 +5,8 @@
 });
 
 
- $('.header').on('click','.login-button',function(){
+ $('.header').on('click','.login-button', function(event){
+  event.preventDefault();
  	$('#login-modal').fadeIn();
  });
 
@@ -24,3 +25,4 @@
     delay: 3000,
   },
   })
+
