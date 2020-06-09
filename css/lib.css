@@ -552,7 +552,8 @@ input[type="tellphone"] {
 
 .gallery .swiper-button-prev,
 .gallery .swiper-button-next {
-  position: static; }
+  position: static; 
+  outline: none;}
 
 .gallery .swiper-button-prev:after {
   content: '';
