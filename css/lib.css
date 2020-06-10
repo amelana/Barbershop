@@ -390,7 +390,7 @@ input[type="checkbox"] {
       top: -3px;
       box-sizing: border-box; }
   input[type="checkbox"]:checked + label:before {
-    background-image: url("../../img/closess.svg");
+    background-image: url("../img/closess.svg");
     background-size: 12px;
     background-position: 50%;
     background-repeat: no-repeat; }
@@ -420,7 +420,7 @@ input[type="checkbox"] {
 
 .login-button {
   text-transform: uppercase;
-  background: url("../../img/login.png") no-repeat 0 50%;
+  background: url("../img/login.png") no-repeat 0 50%;
   display: block;
   color: #fff;
   padding: 28px 0 24px 32px;
@@ -496,11 +496,11 @@ input[type="tellphone"] {
   input[type="text"].login_input,
   input[type="password"].login_input,
   input[type="tellphone"].login_input {
-    background-image: url("../../img/cont.png"); }
+    background-image: url("../img/cont.png"); }
   input[type="text"].login_password,
   input[type="password"].login_password,
   input[type="tellphone"].login_password {
-    background-image: url("../../img/key.png"); }
+    background-image: url("../img/key.png"); }
 
 .form-middle {
   display: flex;
@@ -528,7 +528,7 @@ input[type="tellphone"] {
   .news .container {
     display: flex;
     flex-wrap: wrap;
-    background: url("../../img/light.png") repeat; }
+    background: url("../img/light.png") repeat; }
   .news__item {
     width: calc(50% - 10px);
     padding: 50px 80px 54px;
@@ -593,7 +593,7 @@ input[type="tellphone"] {
   position: relative; }
   .info .container {
     display: flex;
-    background: url("../../img/light.png") repeat; }
+    background: url("../img/light.png") repeat; }
   .info__item {
     width: calc(50% - 10px);
     padding: 50px 80px 54px; }
@@ -719,7 +719,7 @@ input[type="tellphone"] {
     transition: all 0.8s ease 0s;
     left: 0px; }
   .login-button {
-    background: url("../../img/login.png") no-repeat 0 40%;
+    background: url("../img/login.png") no-repeat 0 40%;
     padding-top: 14px; }
   .header__burger {
     display: block;
