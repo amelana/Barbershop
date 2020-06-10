@@ -333,7 +333,7 @@ a {
 
 body {
   font: 700 14px/1 'PT Sans Narrow', Arial, Tahoma, Verdana, sans-serif;
-  background: #000 url("../../img/bg.jpg") no-repeat 50% 0;
+  background: #000 url("../img/bg.jpg") no-repeat 50% 0;
   background-size: 100% auto; }
 
 .wrapper {
