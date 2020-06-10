@@ -599,8 +599,10 @@ input[type="tellphone"] {
     padding: 50px 80px 54px; }
   .info__text {
     line-height: 2; }
+    .info__text .title30{
+     font-size: 27px;}
     .info__text .address {
-      margin-bottom: 36px; }
+      margin-bottom: 39px; }
       .info__text .address a {
         color: #000; }
         .info__text .address a:hover {
@@ -612,7 +614,7 @@ input[type="tellphone"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 54px; }
+    margin-top: 45px; }
   .info__shedow {
     display: block;
     border-radius: 100%;
