@@ -308,7 +308,7 @@ template {
 @font-face {
   font-family: 'pt_sans_narrowbold';
   src: url("../fonts/ptsansnarrow-bold-webfont.eot");
-  src: url("../fonts/ptsansnarrow-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ptsansnarrow-bold-webfont.woff2") format("woff2"), url("../fonts/ptsansnarrow-bold-webfont.woff") format("woff"), url("../fonts/ptsansnarrow-bold-webfont.svg#pt_sans_narrowbold") format("svg");
+  src: url("../fonts/ptsansnarrow-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/ptsansnarrow-bold-webfont.woff2") format("woff2"), url("../../fonts/ptsansnarrow-bold-webfont.woff") format("woff"), url("../../fonts/ptsansnarrow-bold-webfont.svg#pt_sans_narrowbold") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -333,7 +333,7 @@ a {
 
 body {
   font: 700 14px/1 'PT Sans Narrow', Arial, Tahoma, Verdana, sans-serif;
-  background: #000 url("../img/bg.jpg") no-repeat 50% 0;
+  background: #000 url("../../img/bg.jpg") no-repeat 50% 0;
   background-size: 100% auto; }
 
 .wrapper {
@@ -390,7 +390,7 @@ input[type="checkbox"] {
       top: -3px;
       box-sizing: border-box; }
   input[type="checkbox"]:checked + label:before {
-    background-image: url("../img/closess.svg");
+    background-image: url("../../img/closess.svg");
     background-size: 12px;
     background-position: 50%;
     background-repeat: no-repeat; }
@@ -456,7 +456,7 @@ input[type="checkbox"] {
     padding: 20px; }
   .modal__window {
     padding: 52px 80px 62px;
-    background: url("../img/light.png") repeat;
+    background: url("../../img/light.png") repeat;
     width: 100%;
     max-width: 460px;
     position: relative;
@@ -467,7 +467,7 @@ input[type="checkbox"] {
     width: 21px;
     height: 21px;
     cursor: pointer;
-    background: url("../img/close.svg") no-repeat 50%;
+    background: url("../../img/close.svg") no-repeat 50%;
     background-size: 100% 100%; }
 
 h4 {
@@ -497,11 +497,11 @@ input[type="tellphone"] {
   input[type="text"].login_input,
   input[type="password"].login_input,
   input[type="tellphone"].login_input {
-    background-image: url("../img/cont.png"); }
+    background-image: url("../../img/cont.png"); }
   input[type="text"].login_password,
   input[type="password"].login_password,
   input[type="tellphone"].login_password {
-    background-image: url("../img/key.png"); }
+    background-image: url("../../img/key.png"); }
 
 .form-middle {
   display: flex;
@@ -529,7 +529,7 @@ input[type="tellphone"] {
   .news .container {
     display: flex;
     flex-wrap: wrap;
-    background: url("../img/light.png") repeat; }
+    background: url("../../img/light.png") repeat; }
   .news__item {
     width: calc(50% - 10px);
     padding: 50px 80px 54px;
@@ -594,7 +594,7 @@ input[type="tellphone"] {
   position: relative; }
   .info .container {
     display: flex;
-    background: url("../img/light.png") repeat; }
+    background: url("../../img/light.png") repeat; }
   .info__item {
     width: calc(50% - 10px);
     padding: 50px 80px 54px; }
@@ -720,7 +720,7 @@ input[type="tellphone"] {
     transition: all 0.8s ease 0s;
     left: 0px; }
   .login-button {
-    background: url("../img/login.png") no-repeat 0 40%;
+    background: url("../../img/login.png") no-repeat 0 40%;
     padding-top: 14px; }
   .header__burger {
     display: block;
@@ -821,7 +821,7 @@ input[type="tellphone"] {
     width: 21px;
     height: 21px;
     cursor: pointer;
-    background: url("../img/close.svg") no-repeat 50%;
+    background: url("../../img/close.svg") no-repeat 50%;
     background-size: 100% 100%; }
   .modal__window {
     padding: 22px 50px 32px; } }
